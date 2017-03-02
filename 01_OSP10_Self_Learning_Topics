@@ -1,0 +1,89 @@
+= OSP10 Director Self Learning Material (Topics - Skeleton1)
+
+== 1.0 OpenStack Deployment Tools - An Overview
+
+== 2.0 Triple0 
+
+** Redhat Director  Architecture
+** Director Components Overview
+*** Keystone
+*** Glance
+*** Nova
+*** Neutron
+*** Ironic
+*** Swift
+*** Ceilometer
+*** Gnocchi
+*** Aodh
+*** Mistral
+*** Zaqar
+
+
+** Introduction to YAML
+** Introduction to HEAT Engine & HOT Template
+
+==== LAB-1 - (Pre-Deployed all in one Lab)
+* <Heat  Template & Stack Deployment>
+
+== 3.0 Director Deployment
+* Planning and Configuration
+* Configuration Parameters
+* Repository Requirements
+* Director Installation
+
+==== LAB-2
+* < Director Installation >
+* <Director Administration>
+
+=== Overcloud Preparation
+
+* Hardware Preparation
+* Introspection
+* Templates
+* Template Customization
+* Over Cloud installation
+
+==== LAB 3 - Over Cloud Deployment
+
+* Over Cloud Deployment
+* Stack Monitoring
+* Log Checking
+
+== 4.0 Over Cloud Configuration
+* Configurations Checkup
+* Basic Trouble Shooting
+* Network Planning
+* Storage Planning
+
+==== LAB4
+
+* Overcloud Configuration
+* Network Configuration
+* Project Provisioning
+* Instance Provisioning
+* Network management
+* Storage Management
+
+== 5.0 SUMMARY
+
+* Under Cloud & Over Cloud Concepts
+* Openstack Life Cycle
+* Hardware Requirements
+* Customization Options
+* Satellite Integration
+* Next Steps
+
+==== LAB 5
+* Basic Customization
+* Satellite Integration
+
+
+
+
+
+
+
+
+
+
+
