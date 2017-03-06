@@ -1,0 +1,57 @@
+
+=== Packstack
+
+Packstack is a utility that uses Puppet modules to deploy  OpenStack on Single/Multiple servers pre- OS installed servers over SSH automatically. Currently, only CentOS, Red Hat Enterprise Linux (RHEL) and compatible derivatives of both are supported by Packstack. 
+
+==== Packstack involves following Simple Steps to Setup an OpenStack PoC environment
+
+** Configure the required repos inside the installer environment
+
+** Install Packstack utility
+
+[source,]
+----
+yum install openstack-packstack
+----
+
+** Create the Answer file  to configure the Openstack environment
+
+[source,]
+----
+packstack --gen-answer-file /root/ans.txt
+----
+
+** Update the 'Answer file' with the required configuration parameters
+
+[source,]
+----
+vi /root/ans.txt
+----
+
+** Install the openstack environment using Packstack
+
+[source,]
+----
+packstack --answer-file /root/ans.txt
+
+----
+else, initiate  openstack environment installation on a single machine based on the  out of the box configuration using the command
+
+[source,]
+----
+packstack --answer-file /root/ans.txt
+----
+
+Red Hat not recommending packstack to deploy production-grade OpenStack infrastructure. Packstack is a 'Fire and Forget' sort of tool to install Openstack in a test / PoC environment.
+
+ifdef::showscript[]
+
+=== Transcript
+
+
+Packstack is a simple tool , which recommended by Red Hat only to install Openstack in a small scale test and Proof of Concept environment.Packstack will help you to deploy the Openstack in a single or set of machines preinstalled with the Supported OS platform. Packstack supports a certain level of customization of target Openstack environment using the 'Answer File' as an argument to 'Packstack'command. The installation procedure comprises of a couple of simple steps  as mentioned in the document. Packstack currently supports Red Hat,CentOS and its derivatives as the supported OS platform.
+
+endif::showscript[]
+
+
+

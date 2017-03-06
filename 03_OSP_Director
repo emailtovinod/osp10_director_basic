@@ -1,0 +1,72 @@
+=== OpenStack Director
+
+Redhat Openstack director is based on the upstream Openstack Project TripleO.
+
+TripleO is the friendly name for “OpenStack on OpenStack”. It is an official OpenStack project with the goal of allowing you to deploy and manage a production grade Openstack Cloud infrastructure onto bare metal hardware.TripleO advocates the use of native Openstack components and their  APIs and functions to Configure,Deploy and Manage Openstack environment.
+
+==== Benefit of Red Hat Openstack Director
+
+Unlike a Stand alone installer, TripleO (Hence the Director too)go through extensive upstream integration testing and is based on most mature components in Openstack.It will ensure that,any feature enhancements,Security Patches and Bug fixes of these core Openstack componets will be automatically inherited into Director too.
+
+Beacuse of the usage of Common APIs in the cloud management tool( Director) as well as the production Cloud, the OPs team can use their Openstack knowledge to administer the Director  as well as the production cloud depoloyed using it.
+
+
+=== TripleO (As well as Red Hat Openstack Director) components:
+
+*** Nova
+*** Ironic
+*** Neutron
+*** Heat
+*** Glance
+*** Ceilometer 
+
+** Nova and Ironic are used in the undercloud to manage baremetal instances that used to deploy the overcloud. 
+
+** Neutron is utilized to provide a networking environment in which to deploy the overcloud.
+
+** Glance used to store the machine images used  to deploy Overcloud
+
+** Ceilometer collects metrics about your overcloud.
+
+
+
+ifdef::showscript[]
+
+=== Transcript
+
+As mentioned in the previous slide Packstack is a simple 'Fire and Forget' tool to deploy non-production Openstack environments. But a 'real world' Openstack infrastructure require much more involvment beyond the provisioning phase. During deployment too, an isolated approach to preparing the target machines is not an efficient approach. Post Installation, the Cloud Operation team needs to execute multiple 'Cloud Infrastructure Life cycle management tasks, say; Monitoring, Patching, Upgradation, Decommissioning etc. In Operation terms these taks typically known as 'Day 1' and 'Day 2' Operational requirements.
+
+Towards achieve this goal to provide a tool, which can be used to execute all these essential functions of a Cloud Infrastructure, from OSP version 7 onwards Redhat distribution is using Redhat Director as the prefered provisioning and management component.
+
+Redhat Openstack director is based on the upstream Openstack Project TripleO.
+
+TripleO is the friendly name for “OpenStack on OpenStack”. It is an official OpenStack project with the goal of allowing you to deploy and manage a production cloud onto bare metal hardware.TripleO advocates the use of native Openstack components and their  APIs and functions to Configure,Deploy and Manage Openstack environment.
+
+Lets look into the benefit of using Openstack Director compared to other Openstack provisioning tools.
+
+Unlike a Stand alone installer, TripleO (Hence the Director too)go through extensive upstream integration testing and is based on most mature components in Openstack.This will ensure that,any feature enhancements,Security Patches and Bug fixes of these core Openstack componets will be automatically inherited into Director too.
+
+Because of the usage of Common APIs in the management tool( Director) as well as the production Cloud, the OPs team can use their Openstack knowledge to administer the Director without as well as the production cloud depoloyed using it.
+
+Underneath building blocks of TripleO (As well as Red Hat Openstack Director)
+
+*** Nova
+*** Ironic
+*** Neutron
+*** Heat
+*** Glance
+*** Ceilometer 
+
+** Nova and Ironic are used in the undercloud to manage baremetal instances that used to deploy the overcloud. 
+
+** Neutron is utilized to provide a networking environment in which to deploy the overcloud.
+
+** Glance used to store the machine images used  to deploy Overcloud
+
+** Ceilometer collects metrics about your overcloud.
+
+
+
+endif::showscript[]
+
+

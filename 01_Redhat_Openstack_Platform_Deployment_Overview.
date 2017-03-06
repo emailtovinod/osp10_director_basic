@@ -1,0 +1,67 @@
+
+
+== Red Hat OpenStack Platform Deployment Overview
+
+Considering the multiple application stacks and its configuration requirement of OpenStack, manual deployment of Openstack is not only time-consuming but also error prone and complicated task. 
+
+Red Hat distribution of Openstack primarily using two tools - 
+
+*Packstack* and *Director* to deploy its distribution of Openstack. 
+
+=== The choice of the tool to deploy the Openstack depends on multiple parameters, say;
+
+** The purpose of the Openstack deployment
+** Complexity of the Architecture
+** Capacity of the Openstack infrastructure
+** Configuration  Management 
+** life cycle management
+** future scalability requirement,  etc.
+
+
+
+Following chapters we will go through the details and functions of both of these tools and explore them in our lab excercise also.
+
+
+ifdef::showscript[]
+
+=== Transcript
+
+Openstack as its name suggests, is a stack of Applications aimed to build a highly orchestrated infrastructure cloud for both public and private consumption. Unfortunately, there is no 'single command' installer to initiate the provisioning and configuration of Openstack.
+
+Each of the enterprise Openstack distributions comes with its own Installer and configuration management tool to abstract the numerous steps involve in the deploymeny and configuration of Openstack.
+
+Red Hat distribution of Openstack primarily coming with two tools, Packstack and Director to install and manage its distribution of Openstack.
+
+The Operation team needs to taken multiple parameters into account while selecting the best fit tool to do their Openstack deployment.
+
+Here are certain points which needs to be considered while choosing the Openstack instller.
+
+
+** The purpose of the Openstack deployment
+** Complexity of the Architecture
+** Capacity of the Openstack infrastructure
+** Configuration  Management 
+** life cycle management
+** future scalability requirement,  etc.
+
+While proceeding to this document, we will learn about these tools,their pros and cons as well as explore their use in our lab environment too.
+
+
+endif::showscript[]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
