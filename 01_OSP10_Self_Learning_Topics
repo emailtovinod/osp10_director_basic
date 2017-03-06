@@ -1,8 +1,14 @@
-= OSP10 Director Self Learning Material (Topics - Skeleton1)
+== OSP10 Director Self Learning Material (Topics - Skeleton1)
 
-== 1.0 OpenStack Deployment Tools - An Overview
+== 1.0 Redhat OpenStack Platform Deployment- An Overview
 
-== 2.0 Triple0 
+** Introduction
+** Packstack
+** Openstack Director
+
+** Deployment Options : Minimum Installation, HA, Third Party/Partner Technology Integration
+
+== 2.0 TripleO
 
 ** Redhat Director  Architecture
 ** Director Components Overview
